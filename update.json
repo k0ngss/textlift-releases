@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "version": "0.2.11",
+  "version": "0.2.12",
   "platform": "windows-x86_64",
   "installation": "portable-exe",
-  "notes": "# TextLift 0.2.11\n\n- 编辑结果时保持卡片宽度，输入停顿后再调整高度；输入法组词期间暂缓调整，减少文字和按钮跳动。\n- 提高卡片跟随目标窗口的响应速度，移动时保留手动滚动位置。\n- 连接测试可与文字优化同时进行，测试期间仍可编辑、应用已有结果和保存设置。\n- 测试按钮显示“测试中…”并防止重复请求；测试期间修改连接配置后，会提示重新测试当前配置。\n- 修正并发任务完成和失败时的状态处理，更新安装会等待文字操作及连接测试结束。\n- 再次打开设置时保留当前输入焦点，减少重复操作。\n",
-  "release_url": "https://github.com/k0ngss/textlift-releases/releases/tag/v0.2.11",
-  "download_url": "https://github.com/k0ngss/textlift-releases/releases/download/v0.2.11/TextLift-Windows-x64.exe",
-  "size": 686080,
-  "sha256": "c13515e13687a6e79bc1bc8148e4c9ed3b73a8e4f10af964e74b69982c693fa4"
+  "notes": "# TextLift 0.2.12\n\n- 在线更新前检查下载、安装目录及系统临时目录的可用空间。同一磁盘的需求合并计算，空间不足时显示盘符、可用空间、需预留空间和清理建议。\n- 安装失败显示对应阶段及日志位置，写入时遇到磁盘空间不足会明确提示原因，去除难懂的 Some(1) 信息。\n- 更新成功并启动新版后显示一次“更新完成”和当前版本；普通启动、更新失败后重启旧版或回滚均不会显示成功提示。\n- 安装器默认记录日志，后续更新助手也会保存本次安装日志，便于定位其他失败原因。\n\n空间预检查和失败重启标记由本版及后续版本发起更新时使用；从旧版升级到本版仍由旧版更新助手执行，新版启动后即可显示完成提示。\n",
+  "release_url": "https://github.com/k0ngss/textlift-releases/releases/tag/v0.2.12",
+  "download_url": "https://github.com/k0ngss/textlift-releases/releases/download/v0.2.12/TextLift-Windows-x64.exe",
+  "size": 694784,
+  "sha256": "89d1410003b98b317653063dd04c585ac611a1e64c65db65a51eacb3fa7d7c30"
 }
