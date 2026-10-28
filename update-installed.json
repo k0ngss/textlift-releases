@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "version": "0.2.0",
+  "version": "0.2.1",
   "platform": "windows-x86_64",
   "installation": "inno-per-user",
-  "notes": "# TextLift 0.2.0\n\n- 新增托盘手动检查和启动后的后台更新检查。\n- 新版提示支持稍后、跳过版本、查看发布页及手动下载。\n- HTTPS 后台下载支持进度、取消、超时、大小限制和 SHA-256 校验。\n- 安装前保存设置和当前文字；更新助手确认原进程退出后替换主程序并重启。\n- 安装确认期间暂停快捷键和其他操作，避免保存与进程退出期间产生新任务。\n- 私有源码与公开发行仓库分离，客户端匿名访问，无仓库 Token。\n- 新增 Windows 当前用户安装向导：选择安装目录、开始菜单／桌面快捷方式，以及系统卸载入口。\n- 安装版程序内更新使用安装器，保留原目录、快捷方式选择和用户配置；便携版继续使用独立 exe 更新。\n",
-  "release_url": "https://github.com/k0ngss/textlift-releases/releases/tag/v0.2.0",
-  "download_url": "https://github.com/k0ngss/textlift-releases/releases/download/v0.2.0/TextLift-Setup-x64.exe",
-  "size": 2495376,
-  "sha256": "9eb88c264c547f5b6ea5234a33ea273854cf8f1a3d0eed7d6ce349a9939d59dd"
+  "notes": "# TextLift 0.2.1\n\n- 优化预览改为输入框附近的小卡片，只保留可编辑结果、“重新优化”和“应用”。移除原文对照、复制按钮和大块常驻说明。\n- 卡片优先靠右，空间不足时换边，避开屏幕边缘和任务栏；支持拖动、缩放及跟随目标窗口移动。\n- 优化过程和完成时不抢焦点，点击回输入框不会关闭卡片；卡片内按 Esc 或点击 × 收起，托盘可重新查看。\n- 应用使用当前编辑后的文字替换原选区，成功后收起卡片。重新优化失败时保留已有结果，关闭后不会因请求失败重新弹出。\n",
+  "release_url": "https://github.com/k0ngss/textlift-releases/releases/tag/v0.2.1",
+  "download_url": "https://github.com/k0ngss/textlift-releases/releases/download/v0.2.1/TextLift-Setup-x64.exe",
+  "size": 2498171,
+  "sha256": "d8d94878e38d6d10c52ba9c35a637fe970da32d43e6beb60a598b2dcf621071e"
 }
