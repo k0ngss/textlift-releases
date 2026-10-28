@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "version": "0.1.1",
+  "version": "0.2.0",
   "platform": "windows-x86_64",
   "installation": "portable-exe",
-  "notes": "# TextLift 0.1.1\n\n- 新增托盘手动检查和启动后的后台更新检查。\n- 新版提示支持稍后、跳过版本、查看发布页及手动下载。\n- HTTPS 后台下载支持进度、取消、超时、大小限制和 SHA-256 校验。\n- 安装前保存设置和当前文字；更新助手确认原进程退出后替换主程序并重启。\n- 安装确认期间暂停快捷键和其他操作，避免保存与进程退出期间产生新任务。\n- 私有源码与公开发行仓库分离，客户端匿名访问，无仓库 Token。\n",
-  "release_url": "https://github.com/k0ngss/textlift-releases/releases/tag/v0.1.1",
-  "download_url": "https://github.com/k0ngss/textlift-releases/releases/download/v0.1.1/TextLift-Windows-x64.exe",
-  "size": 634880,
-  "sha256": "74af73a7328dc917314a7dc7ae4ca07cb8844d6c09229624c58b8c7e25b0383a"
+  "notes": "# TextLift 0.2.0\n\n- 新增托盘手动检查和启动后的后台更新检查。\n- 新版提示支持稍后、跳过版本、查看发布页及手动下载。\n- HTTPS 后台下载支持进度、取消、超时、大小限制和 SHA-256 校验。\n- 安装前保存设置和当前文字；更新助手确认原进程退出后替换主程序并重启。\n- 安装确认期间暂停快捷键和其他操作，避免保存与进程退出期间产生新任务。\n- 私有源码与公开发行仓库分离，客户端匿名访问，无仓库 Token。\n- 新增 Windows 当前用户安装向导：选择安装目录、开始菜单／桌面快捷方式，以及系统卸载入口。\n- 安装版程序内更新使用安装器，保留原目录、快捷方式选择和用户配置；便携版继续使用独立 exe 更新。\n",
+  "release_url": "https://github.com/k0ngss/textlift-releases/releases/tag/v0.2.0",
+  "download_url": "https://github.com/k0ngss/textlift-releases/releases/download/v0.2.0/TextLift-Windows-x64.exe",
+  "size": 640512,
+  "sha256": "732e531eb61113b3ae7bcdc9914897f5aab52a965ae9aa4e375b165b15d27cf7"
 }
