@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "version": "0.2.9",
+  "version": "0.2.10",
   "platform": "windows-x86_64",
   "installation": "inno-per-user",
-  "notes": "# TextLift 0.2.9\n\n- 优化结果出现后，可在原输入框直接按 Enter 应用，无需先点击浮层；继续核对原选区，不会模拟 Enter 发送对话。\n- 结果框内 Enter 应用、Shift+Enter 换行，应用按钮新增快捷键提示。\n- 原输入框继续输入或移动光标时收起浮层，恢复原应用的键盘行为；输入法在结果框中确认候选词时不会触发应用。\n- 长按 Enter 不会重复应用；生成中、没有结果或恢复内容没有有效原选区时不会应用。\n",
-  "release_url": "https://github.com/k0ngss/textlift-releases/releases/tag/v0.2.9",
-  "download_url": "https://github.com/k0ngss/textlift-releases/releases/download/v0.2.9/TextLift-Setup-x64.exe",
-  "size": 2507209,
-  "sha256": "a48880923e00fcec2e2e0c5c7859d202fcd7c50f113d05cc99de78023775ae8e"
+  "notes": "# TextLift 0.2.10\n\n- 快捷键改为点击输入框后直接按键录入，无需手动输入文字。\n- 精确区分左／右 Alt、Ctrl、Shift、Win，支持单修饰键、修饰键组合以及带主按键的组合；主键盘与小键盘数字、回车分别识别。\n- 单修饰键松开时触发，期间使用其他按键或鼠标不会误算为轻按，长按按键不会重复触发。\n- 录入时暂停旧快捷键；Esc 撤销本次录入，Tab 离开，保存成功后新键位生效。保存失败保留原设置和快捷键。\n- 保持已有通用 Ctrl／Alt 等配置的兼容性，新增系统保留组合检查及 AltGr 模拟键过滤。\n",
+  "release_url": "https://github.com/k0ngss/textlift-releases/releases/tag/v0.2.10",
+  "download_url": "https://github.com/k0ngss/textlift-releases/releases/download/v0.2.10/TextLift-Setup-x64.exe",
+  "size": 2514026,
+  "sha256": "f7b0f72d84c7f954d5515b6eaf0166ca04797fe75354826f3952c69fe33bbfbe"
 }
