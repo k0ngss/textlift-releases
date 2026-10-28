@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "version": "0.2.8",
+  "version": "0.2.9",
   "platform": "windows-x86_64",
   "installation": "portable-exe",
-  "notes": "# TextLift 0.2.8\n\n- 左键点击托盘固定打开设置，右键打开菜单。\n- 启动时不再自动弹出上次结果，只有主动选择“查看上次结果”才会显示；没有内容时该菜单项置灰。\n- 升级恢复文件成功读入后自动清理，内容仅在本次会话中保留，退出后不再恢复；损坏或读取失败的文件会保留。\n- 恢复内容可编辑并用 Ctrl+C 取出，原选区失效时禁用“应用”和“重新优化”。\n",
-  "release_url": "https://github.com/k0ngss/textlift-releases/releases/tag/v0.2.8",
-  "download_url": "https://github.com/k0ngss/textlift-releases/releases/download/v0.2.8/TextLift-Windows-x64.exe",
-  "size": 665088,
-  "sha256": "ec6639c040cf744b6c801993b9a10a2a12743c6d654bfa2f58e02172d3744aa8"
+  "notes": "# TextLift 0.2.9\n\n- 优化结果出现后，可在原输入框直接按 Enter 应用，无需先点击浮层；继续核对原选区，不会模拟 Enter 发送对话。\n- 结果框内 Enter 应用、Shift+Enter 换行，应用按钮新增快捷键提示。\n- 原输入框继续输入或移动光标时收起浮层，恢复原应用的键盘行为；输入法在结果框中确认候选词时不会触发应用。\n- 长按 Enter 不会重复应用；生成中、没有结果或恢复内容没有有效原选区时不会应用。\n",
+  "release_url": "https://github.com/k0ngss/textlift-releases/releases/tag/v0.2.9",
+  "download_url": "https://github.com/k0ngss/textlift-releases/releases/download/v0.2.9/TextLift-Windows-x64.exe",
+  "size": 666112,
+  "sha256": "2faca6a7c8c4a13b97913034e477a931efb9e4123e539c13809c4d5fd12b238a"
 }
