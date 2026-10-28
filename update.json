@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "version": "0.1.0",
+  "platform": "windows-x86_64",
+  "installation": "portable-exe",
+  "notes": "# TextLift 0.1.0\n\n- 新增托盘手动检查和启动后的后台更新检查。\n- 新版提示支持稍后、跳过版本、查看发布页及手动下载。\n- HTTPS 后台下载支持进度、取消、超时、大小限制和 SHA-256 校验。\n- 安装前保存设置和当前文字；更新助手确认原进程退出后替换主程序并重启。\n- 私有源码与公开发行仓库分离，客户端匿名访问，无仓库 Token。\n",
+  "release_url": "https://github.com/k0ngss/textlift-releases/releases/tag/v0.1.0",
+  "download_url": "https://github.com/k0ngss/textlift-releases/releases/download/v0.1.0/TextLift-Windows-x64.exe",
+  "size": 634880,
+  "sha256": "acad1c21d4741538cb3c06c5d123a9396bbbd38e13c8e940159be995b6314074"
+}
