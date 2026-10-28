@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "version": "0.2.5",
+  "version": "0.2.6",
   "platform": "windows-x86_64",
   "installation": "inno-per-user",
-  "notes": "# TextLift 0.2.5\n\n- 多行结果中的“重新优化”和“应用”按钮更紧凑，缩小按钮尺寸及两者间距。\n- 缩短正文到按钮的距离，减少底部和两侧留白，浮层高度随布局同步收缩。\n- 短句的正文与按钮同行布局保持不变，继续支持直接编辑、长文本滚动及置顶显示。\n",
-  "release_url": "https://github.com/k0ngss/textlift-releases/releases/tag/v0.2.5",
-  "download_url": "https://github.com/k0ngss/textlift-releases/releases/download/v0.2.5/TextLift-Setup-x64.exe",
-  "size": 2503570,
-  "sha256": "12a846a3c25818d8e7ec50f4b16b7cd912e62d63fb5916bfdd8b9df05e1e5ce4"
+  "notes": "# TextLift 0.2.6\n\n- 修复编辑优化结果后，点击“应用”误报输入框焦点变化、无法替换的问题。\n- 返回原窗口时显式恢复原输入控件的焦点，支持窗口里有多个输入框的情况。\n- 自动化输入框根据保存的实际输入元素确认焦点，避免底层窗口句柄变化造成误判；继续核对原文、选区和目标窗口。\n- 焦点恢复使用有上限的等待，并在粘贴前再次检查目标；原文变化或无法恢复原选区时仍停止替换。\n",
+  "release_url": "https://github.com/k0ngss/textlift-releases/releases/tag/v0.2.6",
+  "download_url": "https://github.com/k0ngss/textlift-releases/releases/download/v0.2.6/TextLift-Setup-x64.exe",
+  "size": 2503908,
+  "sha256": "548161ca8b77ce04a71aa624599dffd7f46a134fa264f572b2edd7ef2bd83dad"
 }
