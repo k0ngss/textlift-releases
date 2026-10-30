@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "version": "0.2.12",
+  "version": "0.2.13",
   "platform": "windows-x86_64",
   "installation": "portable-exe",
-  "notes": "# TextLift 0.2.12\n\n- 在线更新前检查下载、安装目录及系统临时目录的可用空间。同一磁盘的需求合并计算，空间不足时显示盘符、可用空间、需预留空间和清理建议。\n- 安装失败显示对应阶段及日志位置，写入时遇到磁盘空间不足会明确提示原因，去除难懂的 Some(1) 信息。\n- 更新成功并启动新版后显示一次“更新完成”和当前版本；普通启动、更新失败后重启旧版或回滚均不会显示成功提示。\n- 安装器默认记录日志，后续更新助手也会保存本次安装日志，便于定位其他失败原因。\n\n空间预检查和失败重启标记由本版及后续版本发起更新时使用；从旧版升级到本版仍由旧版更新助手执行，新版启动后即可显示完成提示。\n",
-  "release_url": "https://github.com/k0ngss/textlift-releases/releases/tag/v0.2.12",
-  "download_url": "https://github.com/k0ngss/textlift-releases/releases/download/v0.2.12/TextLift-Windows-x64.exe",
-  "size": 694784,
-  "sha256": "89d1410003b98b317653063dd04c585ac611a1e64c65db65a51eacb3fa7d7c30"
+  "notes": "# TextLift 0.2.13\n\n- 优化应用或取消结果时可能连带原应用输入卡顿的问题：键盘、鼠标监听改为独立线程，避免随浮层关闭和焦点切换一起等待。\n- 关闭浮层前先解除按键拦截；继续在原输入框输入时及时交还键盘，减少等待界面处理期间的影响。\n- 关闭后重新打开浮层，会忽略上一轮延迟到达的应用、关闭操作，避免影响当前结果。\n- 保留快捷键左右键区分、单修饰键轻按、Enter 应用、选区与原文核对，并为原生输入框的字体读取增加超时保护。\n",
+  "release_url": "https://github.com/k0ngss/textlift-releases/releases/tag/v0.2.13",
+  "download_url": "https://github.com/k0ngss/textlift-releases/releases/download/v0.2.13/TextLift-Windows-x64.exe",
+  "size": 721920,
+  "sha256": "1c587635d6c74b662cf478a39411fc8dd612ff1aa33a84aa01ceb2e27be5fb84"
 }
