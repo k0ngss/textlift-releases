@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "version": "0.2.13",
+  "version": "0.2.14",
   "platform": "windows-x86_64",
   "installation": "portable-exe",
-  "notes": "# TextLift 0.2.13\n\n- 优化应用或取消结果时可能连带原应用输入卡顿的问题：键盘、鼠标监听改为独立线程，避免随浮层关闭和焦点切换一起等待。\n- 关闭浮层前先解除按键拦截；继续在原输入框输入时及时交还键盘，减少等待界面处理期间的影响。\n- 关闭后重新打开浮层，会忽略上一轮延迟到达的应用、关闭操作，避免影响当前结果。\n- 保留快捷键左右键区分、单修饰键轻按、Enter 应用、选区与原文核对，并为原生输入框的字体读取增加超时保护。\n",
-  "release_url": "https://github.com/k0ngss/textlift-releases/releases/tag/v0.2.13",
-  "download_url": "https://github.com/k0ngss/textlift-releases/releases/download/v0.2.13/TextLift-Windows-x64.exe",
-  "size": 721920,
-  "sha256": "1c587635d6c74b662cf478a39411fc8dd612ff1aa33a84aa01ceb2e27be5fb84"
+  "notes": "# TextLift 0.2.14\r\n\r\n- 优化设置、结果浮层和更新窗口的按钮圆角与边框，减少锯齿，让边缘过渡更平滑自然。\r\n- 文字和键盘焦点提示保持原分辨率绘制，在常用屏幕缩放比例下兼顾边缘平滑与文字清晰。\r\n- 保留默认、悬停、按下、禁用和焦点状态的颜色及交互；图形资源异常时自动使用兼容绘制方式。\r\n",
+  "release_url": "https://github.com/k0ngss/textlift-releases/releases/tag/v0.2.14",
+  "download_url": "https://github.com/k0ngss/textlift-releases/releases/download/v0.2.14/TextLift-Windows-x64.exe",
+  "size": 722944,
+  "sha256": "bba1b1d0015ba7853a955f709c0b4ae780b8eba70b24cf07d251fb9ca10f8528"
 }
