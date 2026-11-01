@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "version": "0.2.15",
+  "version": "0.2.16",
   "platform": "windows-x86_64",
   "installation": "portable-exe",
-  "notes": "# TextLift 0.2.15\r\n\r\n- 调整设置页的快捷键说明，使用与面板一致的底色和柔和的辅助文字，并与输入文字左对齐。\r\n- 为说明留出独立空间，调整分隔线和优化规则区域的间距，避免遮挡规则内容和输入框边框。\r\n- 精简录入提示，明确区分左右修饰键及单修饰键松开后识别的操作方式。\r\n",
-  "release_url": "https://github.com/k0ngss/textlift-releases/releases/tag/v0.2.15",
-  "download_url": "https://github.com/k0ngss/textlift-releases/releases/download/v0.2.15/TextLift-Windows-x64.exe",
+  "notes": "# TextLift 0.2.16\r\n\r\n- 修复设置窗口上下拉伸后，底部说明和状态文字可能被截断或留下残影的问题。\r\n- 设置窗口与原生控件统一使用双缓冲，控件全部就位后一起刷新，改善连续缩放时的显示稳定性。\r\n",
+  "release_url": "https://github.com/k0ngss/textlift-releases/releases/tag/v0.2.16",
+  "download_url": "https://github.com/k0ngss/textlift-releases/releases/download/v0.2.16/TextLift-Windows-x64.exe",
   "size": 720896,
-  "sha256": "3e7c51fa21abe3a30cf65c7441399095900431621ce6037512ca20b4b9ded924"
+  "sha256": "a7fc3a1ee145b51902581d43143f36f31df92b473f825eb08605292e22c3536d"
 }
