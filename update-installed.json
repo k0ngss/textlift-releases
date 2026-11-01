@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "version": "0.2.14",
+  "version": "0.2.15",
   "platform": "windows-x86_64",
   "installation": "inno-per-user",
-  "notes": "# TextLift 0.2.14\r\n\r\n- 优化设置、结果浮层和更新窗口的按钮圆角与边框，减少锯齿，让边缘过渡更平滑自然。\r\n- 文字和键盘焦点提示保持原分辨率绘制，在常用屏幕缩放比例下兼顾边缘平滑与文字清晰。\r\n- 保留默认、悬停、按下、禁用和焦点状态的颜色及交互；图形资源异常时自动使用兼容绘制方式。\r\n",
-  "release_url": "https://github.com/k0ngss/textlift-releases/releases/tag/v0.2.14",
-  "download_url": "https://github.com/k0ngss/textlift-releases/releases/download/v0.2.14/TextLift-Setup-x64.exe",
-  "size": 2528862,
-  "sha256": "4f5fcb9827e772da72c7983e5e6cf20f80b3d34930bb95ace6645679f0b668e2"
+  "notes": "# TextLift 0.2.15\r\n\r\n- 调整设置页的快捷键说明，使用与面板一致的底色和柔和的辅助文字，并与输入文字左对齐。\r\n- 为说明留出独立空间，调整分隔线和优化规则区域的间距，避免遮挡规则内容和输入框边框。\r\n- 精简录入提示，明确区分左右修饰键及单修饰键松开后识别的操作方式。\r\n",
+  "release_url": "https://github.com/k0ngss/textlift-releases/releases/tag/v0.2.15",
+  "download_url": "https://github.com/k0ngss/textlift-releases/releases/download/v0.2.15/TextLift-Setup-x64.exe",
+  "size": 2526669,
+  "sha256": "074cd7d83b220baffcd07d8e0c5340c57dec6722aa7dd8cf4d4f8d40bf3164e7"
 }
