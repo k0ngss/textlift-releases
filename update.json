@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "version": "0.2.16",
+  "version": "0.2.17",
   "platform": "windows-x86_64",
   "installation": "portable-exe",
-  "notes": "# TextLift 0.2.16\r\n\r\n- 修复设置窗口上下拉伸后，底部说明和状态文字可能被截断或留下残影的问题。\r\n- 设置窗口与原生控件统一使用双缓冲，控件全部就位后一起刷新，改善连续缩放时的显示稳定性。\r\n",
-  "release_url": "https://github.com/k0ngss/textlift-releases/releases/tag/v0.2.16",
-  "download_url": "https://github.com/k0ngss/textlift-releases/releases/download/v0.2.16/TextLift-Windows-x64.exe",
-  "size": 720896,
-  "sha256": "a7fc3a1ee145b51902581d43143f36f31df92b473f825eb08605292e22c3536d"
+  "notes": "# TextLift 0.2.17\r\n\r\n- 优化结果浮层文字：采用 Windows 系统字体，在系统默认字号基础上放大约 33%，提升中文和中英文混排的可读性。\r\n- 调整文字留白与按钮尺寸，兼顾短文横排和多行结果；字体随系统设置和显示缩放变化自动刷新，浮层同步重新排版。\r\n",
+  "release_url": "https://github.com/k0ngss/textlift-releases/releases/tag/v0.2.17",
+  "download_url": "https://github.com/k0ngss/textlift-releases/releases/download/v0.2.17/TextLift-Windows-x64.exe",
+  "size": 724992,
+  "sha256": "7e3482f89699e14f806a72787d25e45a9d42a500612008a1d6ef769251c93980"
 }
