@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "version": "0.2.17",
+  "version": "0.2.18",
   "platform": "windows-x86_64",
   "installation": "portable-exe",
-  "notes": "# TextLift 0.2.17\r\n\r\n- 优化结果浮层文字：采用 Windows 系统字体，在系统默认字号基础上放大约 33%，提升中文和中英文混排的可读性。\r\n- 调整文字留白与按钮尺寸，兼顾短文横排和多行结果；字体随系统设置和显示缩放变化自动刷新，浮层同步重新排版。\r\n",
-  "release_url": "https://github.com/k0ngss/textlift-releases/releases/tag/v0.2.17",
-  "download_url": "https://github.com/k0ngss/textlift-releases/releases/download/v0.2.17/TextLift-Windows-x64.exe",
-  "size": 724992,
-  "sha256": "7e3482f89699e14f806a72787d25e45a9d42a500612008a1d6ef769251c93980"
+  "notes": "# TextLift 0.2.18\r\n\r\n- 新增可配置的文字动作，内置提示词优化、翻译、润色和扩写；每个动作可编辑提示词、设置独立快捷键，并通过 JSON 动作包导入导出。已有优化规则与快捷键自动保留。\r\n- 动作菜单与结果卡片共用动作选择器，可对同一段原文切换动作、编辑结果，再确认应用。\r\n- 简化动作管理页：新增位于列表顶部，右键对应动作即可排序、启用／停用、导出或删除；名称与快捷键并排，保留原有配色与控件样式。\r\n- 修复切换动作或重新生成时旧结果持续显示的问题，处理中显示状态，完成后展示新结果，失败时保留上一轮结果。\r\n",
+  "release_url": "https://github.com/k0ngss/textlift-releases/releases/tag/v0.2.18",
+  "download_url": "https://github.com/k0ngss/textlift-releases/releases/download/v0.2.18/TextLift-Windows-x64.exe",
+  "size": 790016,
+  "sha256": "d3e58cc96ebeaa1d8cae335ee0e0b1e58fe2eff6caaf0a19501f3f8dad7a2b0f"
 }
